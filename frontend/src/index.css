@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* .navBarContainer{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  
+} */
+
+.navBarContainer a {
+  margin-right: 10px;
+  text-decoration: none;
+  align-items: center;
+}
+
+.userStatContainer {
+  display:flex;
+
+}
+
+.userStatContainer span {
+  margin-right: 10px;
+}
+
+table {
+  border: 3px solid black;
+  border-collapse:collapse;
+  
+}
+
+tr {
+  border-bottom: 2px solid #404040;
+}
+
+
+.table-name-column {
+  white-space: nowrap;
+}
+.table-week-column, .table-total-column {
+  border-right: 3px solid black;
+}
+.table-score-column{
+  border-right: 2px solid black
+}
+
+.table {
+  --bs-table-striped-bg: rgba(0, 0, 0, 0.1)
+}
+
+.table-hover thead tr:hover th, .table-hover tbody tr:hover td {
+  background-color: rgba(255, 255, 0, 0.3);
+  /* color: #fff */
+}
+
+

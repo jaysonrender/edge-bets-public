@@ -1,0 +1,1 @@
+SELECT * FROM users WHERE league_id = ? AND user_id = ?;

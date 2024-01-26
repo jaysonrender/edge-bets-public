@@ -1,0 +1,1 @@
+SELECT user_id, league_id, username, fname, lname, user_type FROM users WHERE (username = ? AND password_hash = ?) OR (email= ? AND password_hash = ?);

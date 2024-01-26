@@ -1,0 +1,1 @@
+SELECT * FROM userScorePicksRanks WHERE league_id = ?;

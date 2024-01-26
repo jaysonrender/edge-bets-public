@@ -1,0 +1,1 @@
+INSERT into users (league_id, fname, lname, username, password_hash, email, user_type ) VALUES (?, ?, ?, ?, ?, ?, ?);

@@ -1,0 +1,1 @@
+SELECT * FROM leagues WHERE league_id = ?;

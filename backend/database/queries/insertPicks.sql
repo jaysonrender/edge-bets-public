@@ -1,0 +1,1 @@
+INSERT INTO pick_list (season, user_id, pick_week, pick1, pick2, auto_pick) VALUES(?, ?, ?, ?, ?, ?) ON DUPLICATE KEY UPDATE pick1 = ?, pick2 =?, auto_pick = ? ;

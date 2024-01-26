@@ -1,0 +1,1 @@
+SELECT * FROM pick_list WHERE season = ? AND user_id = ? AND pick_week = ?;

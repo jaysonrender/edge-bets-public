@@ -1,0 +1,1 @@
+INSERT INTO scores (season, nfl_week, team_alias, score) VALUES (?, ?, ? , ?) ON DUPLICATE KEY UPDATE score = ?;

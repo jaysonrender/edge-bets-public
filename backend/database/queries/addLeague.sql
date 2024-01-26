@@ -1,0 +1,1 @@
+INSERT INTO leagues (league_id, league_name) VALUES (?, ?);

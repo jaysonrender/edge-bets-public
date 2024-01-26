@@ -1,0 +1,1 @@
+INSERT into pick_list (season, user_id, pick_week, pick1, pick2, auto_pick) VALUES (?, ?, ?, ?, ?, 2);

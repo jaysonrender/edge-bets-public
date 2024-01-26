@@ -1,0 +1,1 @@
+UPDATE pick_list SET pick2 = NULL, auto_pick = 1 WHERE season = ? AND user_id = ? AND pick_week = ?;
